@@ -1,0 +1,546 @@
+@font-face {
+    font-family: 'Big Noodle Titling'; 
+    src: url('https://github.com/nsolovei/HTML-CSS/blob/master/fonts/BigNoodleTitling.ttf');
+}
+
+h1{
+    font-family: "Big Noodle Titling";
+}
+
+
+.header{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.logo{
+    margin-top: 4px;
+    margin-right: 4px;
+    height: 39px;
+}
+
+.brand{
+    width: 170px;
+    height: 29px;
+    color: #696969;
+    font-size: 40px;
+    font-weight: 400;
+    /* Text style for "BOOSTFOLIA" */
+    letter-spacing: 4px;
+}
+
+
+.box{
+    width: 100%;
+    height: 708px;
+    background-color: #353535;
+    margin-bottom: 100px;
+}
+
+.phrases{
+    justify-content: center;
+    text-align: center;
+    padding-top: 270px;
+    letter-spacing: 3.6px;
+}
+
+.phrase{
+    padding-bottom: 10px;
+    color: #d6d5d5;
+    font-family: "Big Noodle Titling";
+    font-size: 50px;
+    font-weight: 400;
+
+}
+
+.phrase-1{   
+    color: #d6d5d5;
+    font-family: "Big Noodle Titling";
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 190px;
+}
+
+.fa-mouse{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.down-phrase{
+    text-align: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.aboutUS{
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.underline{
+    margin-left: 442px;
+    width: 224px;
+    height: 3px;
+    background-color: #f4511e;
+    margin-bottom: 20px;
+}
+
+.long_phrase{
+    text-align: center;
+    color: #696969;
+    font-family: "Roboto - Thin";
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 31px;
+}
+
+.cards{
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.card h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: #707070;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.45px;
+}
+
+.card p{
+    text-align: center;
+    color: #707070;
+    font-family: "Roboto - Thin";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.cards img{
+    width: min-content;
+    padding-bottom: 10px;
+    margin-left: 90px;
+}
+
+#card-2 img{
+    padding-bottom: 23px;
+    padding-left: 12px;
+}
+
+#card-3{
+    padding-top: 30px;
+}
+
+#card-3 img{
+    padding-bottom: 28.5px;
+}
+
+
+.boxes{
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.f-box{
+    
+    background-color: #171f23;
+    width: 60%;
+    height: 430px;
+}
+
+.f-box h1{
+    padding-top: 150px;
+    color: #e7e7e7;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.f-box p{
+    text-align: center;
+    color: #696969;
+    font-family: "Roboto - Thin";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.f-box button{
+    color: #ebebeb;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 3px solid transparent;
+    background-color:#E64E40;
+    background-position-y: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+.s-box{
+    background-image:url(imges/6829334723_422e949dac_b.jpg);
+    height: 430px;
+    width: 40%;
+    padding-left: 300px;
+    padding-top: 150px;
+}
+
+.fa-play{
+    font-size: 100px;
+    color:#fff;
+}
+
+.our_works{
+    color: #3d3d3d;
+    font-family: "Big Noodle Titling";
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4.8px;
+}
+
+.menu{
+    list-style: none;
+    justify-content: center;
+}
+
+.links{
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: -20px;
+    text-decoration: none;
+    /* Text style for "P, HOTOGRA" */
+    letter-spacing: 1.4px;
+}
+
+#main_link{
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "A, LL PROJ" */
+    letter-spacing: 1.4px;
+}
+
+#underline{
+    margin-top: -15px;
+    margin-left: 185px;
+    background-color: #f4511e;
+    width: 112px;
+    height: 1.5px;
+    margin-bottom: 50px;
+}
+
+.pre-logs{
+    align-items: center;
+    background-color: #1C1C1C;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    text-transform: lowercase;
+    margin-bottom: 70px;
+}
+
+.log-1{
+    display: flex;
+}
+
+.log-2{
+    display: flex;
+}
+
+.log-3{
+    display: flex;
+}
+
+.pre-img{
+    width: min-content;
+    height: min-content;
+}
+
+.menu-tags{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Mg Open Modata";
+    font-size: 33px;
+    font-weight: 400;
+    color: #ececec;
+}
+
+#bear{
+    margin-left: -26px;
+}
+
+.wwa{
+    text-align: center;
+    font-family: "Big Noodle Titling";
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "OUR WORKS" */
+    letter-spacing: 4.8px;
+}
+
+.employee{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.visit-card{
+    margin-left: 70px;
+}
+
+.hero{
+    width: 134px;
+    height: 134px;
+}
+
+.name{
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "J, ANE SMI" */
+    letter-spacing: 2px;
+}
+
+.job{
+    margin-top: -5px;
+    justify-content: center;
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* Text style for "D, ESIGNER" */
+    letter-spacing: 1.4px;
+    margin-left: 30px;
+}
+
+.icons{
+    text-align: center;
+    display: flex;
+    width: 13px;
+    height: 12px;
+    color: #696969;
+    font-family: "Font Awesome";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    margin-left: 40px;
+}
+
+.icons i{
+    margin-right: 5px;
+}
+
+.rounds{
+    margin-top: 25px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.rounds i{
+    margin-left: 10px;
+    height: 11px;
+    width: 11px;
+}
+
+.r-1{
+    color:#957E7D;
+}
+
+.skills{
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+#my-sks{
+    color: #3d3d3d;
+    font-family: "Roboto - Bold Condensed";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "M, Y SKILL" */
+    letter-spacing: 2.4px;
+}
+
+.sks-paragph{
+    color: #858383;
+    font-family: "Roboto - Thin";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.prgs-line{
+    display: flex;
+}
+
+.case{
+    margin-top: 3px;
+}
+
+.parrent{
+    width: 500px;
+    height: 2px;
+    background: #f2f2f2;
+    margin: 5px;
+    justify-self: end;
+  }
+  .child{
+    height: 100%;
+    background: #E64E40;
+  }
+  .html-1{
+    width: 88%;
+  }
+
+  .html-2{
+    width: 92%;
+  }
+
+  .html-3{
+    width: 90%;
+  }
+
+  .html-4{
+    width: 98%;
+  }
+
+
+.object{
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "PHOTOSHOP" */
+    letter-spacing: 1.4px;
+}
+
+.value{
+    color: #3d3d3d;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.f-st{
+    margin-left: 35px;
+}
+
+.s-nd{
+    margin-left: 20px;
+}
+
+.t-rd{
+    margin-left: 70px;
+}
+
+.some-features{
+    margin-bottom: 50px;
+    height: 384px;
+    background-color: #171f23;
+}
+
+.for_features{
+    padding-top: 60px;
+    text-align: center;
+    color: #f6f6f6;
+    font-family: "Roboto - Condensed";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "SOME FEATU" */
+    letter-spacing: 7.2px;
+}
+
+.feat{
+    margin-left: 635px;
+    width: 86px;
+    height: 1px;
+    background-color: #404040;
+}
+
+.feat_cards{
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.feat_card_p{
+    margin-top: 15px;
+    color: #f6f6f6;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.feat_card_h3{
+    color: #f6f6f6;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.first_card{
+    margin-top: 31px;
+}
+
+.third_card {
+    margin-top: 15px;
+}
+
+.fourth_card{
+    margin-top: 5px;
+}
+
+.fourth_card p{
+    margin-top: 11px;
+}
+
+.first_card h3{
+    margin-top: -5px;
+}
+
+.second_card h3{
+    margin-top: 16px;
+}
+
+.fourth_card h3{
+    margin-top: -2.5px;
+}
+
+.second_card img{
+    margin-top: 10px;
+}
